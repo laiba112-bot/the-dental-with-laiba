@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    padding: 40px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    
+}
+
+.logo {
+    height: 60px;
+    position: absolute;
+    left: 10px;
+}
+
+.title {
+    font-size: 2rem;
+    color: #B19CD9;
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+
+nav {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0);
+    padding: 20px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: skyblue;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #B19CD9;
+    text-decoration: underline;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.carousel {
+    width: 80%;
+}
+
+.carousel-content {
+    background: linear-gradient(to right, #66CDAA, #B19CD9, #FFE4B5);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.carousel-indicators {
+    bottom: -30px; 
+}
+
+.carousel-indicators li {
+    background-color: #000; 
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.info-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; 
+    margin: 20px 0;
+}
+
+.info-box {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; 
+}
+
+.news {
+    background-color: #B0C4DE; 
+}
+
+.find-dentist {
+    background-color: #DDA0DD; 
+}
+
+.quick-tips {
+    background-color: #E6E6FA; 
+}
+
+.info-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center; 
+}
+
+.info-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-box li {
+    margin-bottom: 10px;
+    list-style-type: disc; 
+    list-style-position: inside; 
+}
+
+.info-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-box label {
+    margin-top: 10px;
+}
+
+.info-box input[type="text"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        position: static;
+        margin: 0 0 10px 0;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        margin: 10px 0;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+
+    .carousel-content {
+        font-size: 1rem;
+    }
+
+    .info-sections {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-box {
+        width: 100%;
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,100 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dental Hygiene Association</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIVXArP_RhAd2N2R2JJKEh3Gg0IEqBL7zk5w&s" alt="Logo" class="logo"> 
+            <h1 class="title">The Dental Hygiene Association</h1>
+            <p> The  <br>Dental <br>Hygiene <br>Association</p>
+        </div>
+    </header>
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Adults</a>
+            <a href="#" class="nav-link">News</a>
+            <a href="#" class="nav-link">FAQ</a>
+            <a href="#" class="nav-link">Glossary</a>
+        </div>
+    </nav>
+    <div class="carousel-container">
+        <div id="infoCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-content">
+                        <p>Only 46% of households buy toothbrushes</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-content">
+                        <p>Flossing daily can improve oral hygiene significantly</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-content">
+                        <p>Regular dental check-ups are essential for healthy teeth</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#infoCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#infoCarousel" data-slide-to="1"></li>
+                <li data-target="#infoCarousel" data-slide-to="2"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+        <hr style="background-color:blueviolet;">
+    </div>
+    <div class="info-sections container">
+        <div class="info-box news">
+            <h2>News & Events</h2>
+            <p style="text-align: center;">Click to find out more!</p>
+            <ul>
+                <li>Irish Academy of Aesthetic Dentistry (IAAD) Meeting</li>
+                <li>Irish dentist report on eating disorders</li>
+                <li>IDA Annual Conference 2024</li>
+                <li>Maternal saliva predicts dental</li>
+            </ul>
+        </div>
+        <div class="info-box find-dentist">
+            <h2>Find a Dentist</h2>
+            <p>Looking for a dentist in your area? Enter any details below and search for dentists near you?</p>
+            <form>
+                <label for="first-name">First name of Dentist:</label>
+                <input type="text" id="first-name" name="first-name" value="harem">
+                <label for="last-name">Last name of Dentist:</label>
+                <input type="text" id="last-name" name="last-name" value="hzhera">
+                <div>
+                    <p>What type of dentist are you looking for?</p>
+                    <label><input type="checkbox" name="type" value="Orthodontist" checked> Orthodontist</label><br>
+                    <label><input type="checkbox" name="type" value="General Dentist" checked> General Dentist Practitioner</label>
+                </div>
+            </form>
+        </div>
+        <div class="info-box quick-tips">
+            <h2>Quick Tips</h2>
+            <ul>
+                <li>Change your toothbrush every 5 months</li>
+                <li>Clean your tongue well as your teeth</li>
+                <li>Floss every day</li>
+                <li>See your Dentist every 6 months</li>
+                <li>Cut down on how often you have sweet drinks and foods</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
